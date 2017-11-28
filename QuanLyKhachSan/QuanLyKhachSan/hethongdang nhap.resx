@@ -117,17 +117,45 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icons8-logout-rounded-up-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-logout-rounded-up-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
   </data>
-  <data name="icons8-circled-user-male-skin-type-4-501" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-circled-user-male-skin-type-4-501.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>                                                                                                                                                                                                                                                                                  </value>
   </data>
-  <data name="icons8-circled-user-male-skin-type-4-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-circled-user-male-skin-type-4-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-lock-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-lock-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
