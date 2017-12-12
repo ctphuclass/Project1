@@ -46,17 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Form1.cs" />
+    <Compile Include="Form1.Designer.cs" />
+    <Compile Include="FrmDichVu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmDichVu.Designer.cs" />
+    <Compile Include="FrmGhiChu.cs">
+      <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FrmGhiChu.Designer.cs" />
+    <Compile Include="FrmKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKhachHang.Designer.cs" />
+    <Compile Include="FrmNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNhanVien.Designer.cs" />
+    <Compile Include="FrmPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPhong.Designer.cs" />
+    <Compile Include="FrmThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmThanhToan.Designer.cs" />
+    <Compile Include="FrmThemNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmThemNhanVien.Designer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx" />
+    <EmbeddedResource Include="FrmNhanVien.resx" />
+    <EmbeddedResource Include="FrmPhong.resx" />
+    <EmbeddedResource Include="FrmThemNhanVien.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

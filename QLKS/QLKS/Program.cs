@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using DevExpress.UserSkins;
+using DevExpress.Skins;
 
-namespace QLKS
+namespace QuanLyKhachSan
 {
     static class Program
     {
@@ -16,6 +17,9 @@ namespace QLKS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            BonusSkins.Register();
+            SkinManager.EnableFormSkins();
             Application.Run(new Form1());
         }
     }
