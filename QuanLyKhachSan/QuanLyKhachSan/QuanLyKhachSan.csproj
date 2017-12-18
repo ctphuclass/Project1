@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E3265AD1-0C41-47D9-9740-DEC12811254B}</ProjectGuid>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ABF6D146-BDA7-4A13-B5FF-F01F83A95468}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>QuanLyKhachSan</RootNamespace>
     <AssemblyName>QuanLyKhachSan</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,6 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v16.1" />
+    <Reference Include="DevExpress.Data.v16.1" />
+    <Reference Include="DevExpress.Printing.v16.1.Core" />
+    <Reference Include="DevExpress.Utils.v16.1" />
+    <Reference Include="DevExpress.XtraBars.v16.1" />
+    <Reference Include="DevExpress.Sparkline.v16.1.Core" />
+    <Reference Include="DevExpress.XtraEditors.v16.1" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,31 +48,94 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="flogin.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="flogin.Designer.cs">
-      <DependentUpon>flogin.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="hethongdang nhap.cs">
+    <Compile Include="FrmChiTietPhong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="hethongdang nhap.Designer.cs">
-      <DependentUpon>hethongdang nhap.cs</DependentUpon>
+    <Compile Include="FrmChiTietPhong.Designer.cs">
+      <DependentUpon>FrmChiTietPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDangNhap.Designer.cs">
+      <DependentUpon>FrmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDatPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDatPhong.Designer.cs">
+      <DependentUpon>FrmDatPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDichVu.Designer.cs">
+      <DependentUpon>FrmDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKhachHang.Designer.cs">
+      <DependentUpon>FrmKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNhanVien.Designer.cs">
+      <DependentUpon>FrmNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPhong.Designer.cs">
+      <DependentUpon>FrmPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmThanhToan.Designer.cs">
+      <DependentUpon>FrmThanhToan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmThemNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmThemNhanVien.Designer.cs">
+      <DependentUpon>FrmThemNhanVien.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="flogin.resx">
-      <DependentUpon>flogin.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="hethongdang nhap.resx">
-      <DependentUpon>hethongdang nhap.cs</DependentUpon>
+    <EmbeddedResource Include="FrmChiTietPhong.resx">
+      <DependentUpon>FrmChiTietPhong.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmDangNhap.resx">
+      <DependentUpon>FrmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDatPhong.resx">
+      <DependentUpon>FrmDatPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNhanVien.resx">
+      <DependentUpon>FrmNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPhong.resx">
+      <DependentUpon>FrmPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmThemNhanVien.resx">
+      <DependentUpon>FrmThemNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -74,8 +144,8 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -87,22 +157,42 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <ProjectReference Include="..\QuanLyKhachSan_DTO\QuanLyKhachSan_DTO.csproj">
+      <Project>{bbb25dbb-6367-4f6b-bd94-c7de630ac141}</Project>
+      <Name>QuanLyKhachSan_DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuanLyKhacSan_BUS\QuanLyKhachSan_BUS.csproj">
+      <Project>{1e6d2d28-5479-4fc0-99f9-e7bca2cb0075}</Project>
+      <Name>QuanLyKhachSan_BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuanLyKhacSan_DAO\QuanLyKhacSan_DAO.csproj">
+      <Project>{f6322653-27c4-4d6e-bccd-7885cc466748}</Project>
+      <Name>QuanLyKhacSan_DAO</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icons8-logout-rounded-up-50.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-circled-user-male-skin-type-4-50.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-circled-user-male-skin-type-4-501.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-lock-40.png" />
+    <Content Include="image\146.png" />
+    <Content Include="image\Actions-window-close-icon.png" />
+    <Content Include="image\add-contact-icon.png" />
+    <Content Include="image\apply-icon.ico" />
+    <Content Include="image\BitCoin-icon.png" />
+    <Content Include="image\Cup-3-coffee-icon.png" />
+    <Content Include="image\DatPhong.jpg" />
+    <Content Include="image\Document-Copy-icon.png" />
+    <Content Include="image\edit-file-icon.png" />
+    <Content Include="image\Home-icon.png" />
+    <Content Include="image\Home.png" />
+    <Content Include="image\load2-upload-icon.png" />
+    <Content Include="image\Misc-Delete-Database-icon.png" />
+    <Content Include="image\notes-icon.png" />
+    <Content Include="image\Office-Customer-Male-Light-icon.png" />
+    <Content Include="image\QuanLyKhachSan.sln" />
+    <Content Include="image\Sign-Add-icon.png" />
+    <Content Include="image\sign-check-icon.png" />
+    <Content Include="image\ThongTinPhong.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
