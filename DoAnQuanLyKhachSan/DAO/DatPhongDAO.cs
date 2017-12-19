@@ -9,11 +9,11 @@ namespace DAO
 {
     public class DatPhongDAO
     {
-        public static bool ThemMaPhieuTheoKH(string makh)
+        public static bool insertPhieuDatPhong(string maphong)
         {
             try
             {
-                string sQuery = string.Format("usp_ThemKHvaophieudat @makh ={0}", makh);
+                string sQuery = string.Format("usp_insertPhieuDatPhong @maphong ={0}", maphong);
 
 
                 var u = DataProvider.ExecuteNonQuery(sQuery);
@@ -25,11 +25,11 @@ namespace DAO
                 throw ex;
             }
         }
-        public static int MaxPhieuThue()
+        public static int MaxPhieuDat()
         {
             try
             {
-                string sQuery = "execute usp_maxPhieuDat ";
+                string sQuery = "usp_LayMaxPhieuDatPhong";
                 DataTable dt = DataProvider.ExecuteQuery(sQuery);
                 int i = Int32.Parse(dt.Rows[0][0].ToString());
                 return i;
@@ -39,29 +39,6 @@ namespace DAO
                 throw ex;
             }
         }
-        //public static int kiemtratinhtrang(string maphong)
-        //{
-            //try
-            //{
-            //    string sQuery = string.Format("usp_MaChiPhi @maphong ={0}", maphong);
-
-            //    DataTable dt = DataProvider.ExecuteQuery(sQuery);
-
-
-
-            //    if (dt.Rows.Count > 0)
-            //    {
-                   
-            //        cphiphu.machiphi = Int32.Parse(dt.Rows[0][0].ToString());
-            //        return cphiphu.machiphi;
-            //    }
-            //    else
-            //        return -1;
-            //}
-            //catch (Exception ex)
-            //{
-            //    throw ex;
-            //}
-        //}
+      
     }
 }

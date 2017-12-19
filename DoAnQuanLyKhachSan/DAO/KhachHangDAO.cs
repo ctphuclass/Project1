@@ -61,8 +61,7 @@ namespace DAO
                 return true;
             }
             catch (Exception ex)
-            {
-               
+            {    
                 throw ex;
             }
         }
@@ -71,7 +70,7 @@ namespace DAO
             try
             {
                 con = DataProvider.HamKetNoi();
-                SqlCommand cmd = new SqlCommand("usp_AddKH", con);
+                SqlCommand cmd = new SqlCommand("usp_ThemKhachHang", con);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@MaKhachHang", kh.makh);
                 cmd.Parameters.AddWithValue("@TenKhachHang", kh.tenkh);
@@ -104,7 +103,8 @@ namespace DAO
             ResultMessage_DTO result = new ResultMessage_DTO();
             try
             {
-                SqlCommand cmd = new SqlCommand("proc_UpdateKH", con);
+                con = DataProvider.HamKetNoi();
+                SqlCommand cmd = new SqlCommand("usp_UpdateKH", con);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@MaKhachHang", kh.makh);
                 cmd.Parameters.AddWithValue("@TenKhachHang", kh.tenkh);
@@ -118,7 +118,7 @@ namespace DAO
                 cmd.Parameters["@pResultCode_KH"].Direction = ParameterDirection.Output;
                 cmd.Parameters["@pResultMessage_KH"].Direction = ParameterDirection.Output;
                 cmd.Parameters["@pResultMessage_KH"].Size = 200;
-                con.Open();
+               
                 cmd.ExecuteNonQuery();
                 result.ResultCode_KH = cmd.Parameters["@pResultCode_KH"].Value.ToString();
                 result.ResultMessage_KH = cmd.Parameters["@pResultMessage_KH"].Value.ToString();

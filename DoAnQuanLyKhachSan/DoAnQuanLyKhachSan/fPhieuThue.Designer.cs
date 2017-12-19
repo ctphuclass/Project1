@@ -38,6 +38,7 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.rd_nu = new System.Windows.Forms.RadioButton();
             this.rd_nam = new System.Windows.Forms.RadioButton();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txt_diachi = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -63,6 +64,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.tbG = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -70,21 +72,19 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -102,11 +102,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(424, 9);
+            this.label1.Location = new System.Drawing.Point(358, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(264, 36);
+            this.label1.Size = new System.Drawing.Size(386, 36);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Phiếu Thuê Phòng";
+            this.label1.Text = "Phiếu Đăng Ký Thuê Phòng";
             // 
             // panel2
             // 
@@ -217,6 +217,16 @@
             this.rd_nam.TabStop = true;
             this.rd_nam.Text = "Nam";
             this.rd_nam.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::DoAnQuanLyKhachSan.Properties.Resources.Person_Male_Light_icon;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox2.Location = new System.Drawing.Point(20, 59);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(152, 143);
+            this.pictureBox2.TabIndex = 759;
+            this.pictureBox2.TabStop = false;
             // 
             // label7
             // 
@@ -513,6 +523,16 @@
             this.tbG.Size = new System.Drawing.Size(131, 19);
             this.tbG.TabIndex = 762;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::DoAnQuanLyKhachSan.Properties.Resources.Hand_icon;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 59);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(142, 143);
+            this.pictureBox1.TabIndex = 759;
+            this.pictureBox1.TabStop = false;
+            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -590,26 +610,6 @@
             this.label19.TabIndex = 0;
             this.label19.Text = "Chi Tiết Phiếu Thuê";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::DoAnQuanLyKhachSan.Properties.Resources.Person_Male_Light_icon;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox2.Location = new System.Drawing.Point(20, 59);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(152, 143);
-            this.pictureBox2.TabIndex = 759;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::DoAnQuanLyKhachSan.Properties.Resources.Hand_icon;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 59);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(142, 143);
-            this.pictureBox1.TabIndex = 759;
-            this.pictureBox1.TabStop = false;
-            // 
             // fPhieuThue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -627,17 +627,17 @@
             this.panel3.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -1,0 +1,7 @@
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DAO\bin\Debug\DAO.dll
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DAO\bin\Debug\DAO.pdb
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DAO\bin\Debug\DTO.dll
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DAO\bin\Debug\DTO.pdb
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DAO\obj\Debug\DAO.dll
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DAO\obj\Debug\DAO.pdb

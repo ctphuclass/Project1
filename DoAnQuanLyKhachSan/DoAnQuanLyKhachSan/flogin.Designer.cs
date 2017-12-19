@@ -32,11 +32,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.txt_manv = new System.Windows.Forms.TextBox();
+            this.tbTK = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txt_sdt = new System.Windows.Forms.TextBox();
+            this.tbMK = new System.Windows.Forms.TextBox();
             this.bt_dn = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bnThoat = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -48,7 +48,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(571, 67);
+            this.panel1.Size = new System.Drawing.Size(582, 67);
             this.panel1.TabIndex = 717;
             // 
             // label1
@@ -82,15 +82,15 @@
             this.label7.TabIndex = 761;
             this.label7.Text = "Tài Khoản";
             // 
-            // txt_manv
+            // tbTK
             // 
-            this.txt_manv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_manv.ForeColor = System.Drawing.Color.DarkCyan;
-            this.txt_manv.Location = new System.Drawing.Point(250, 113);
-            this.txt_manv.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_manv.Name = "txt_manv";
-            this.txt_manv.Size = new System.Drawing.Size(300, 26);
-            this.txt_manv.TabIndex = 758;
+            this.tbTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbTK.ForeColor = System.Drawing.Color.DarkCyan;
+            this.tbTK.Location = new System.Drawing.Point(250, 113);
+            this.tbTK.Margin = new System.Windows.Forms.Padding(4);
+            this.tbTK.Name = "tbTK";
+            this.tbTK.Size = new System.Drawing.Size(300, 26);
+            this.tbTK.TabIndex = 758;
             // 
             // label6
             // 
@@ -104,15 +104,15 @@
             this.label6.TabIndex = 760;
             this.label6.Text = "Mật Khẩu";
             // 
-            // txt_sdt
+            // tbMK
             // 
-            this.txt_sdt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_sdt.ForeColor = System.Drawing.Color.DarkCyan;
-            this.txt_sdt.Location = new System.Drawing.Point(251, 156);
-            this.txt_sdt.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_sdt.Name = "txt_sdt";
-            this.txt_sdt.Size = new System.Drawing.Size(300, 26);
-            this.txt_sdt.TabIndex = 759;
+            this.tbMK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbMK.ForeColor = System.Drawing.Color.DarkCyan;
+            this.tbMK.Location = new System.Drawing.Point(251, 156);
+            this.tbMK.Margin = new System.Windows.Forms.Padding(4);
+            this.tbMK.Name = "tbMK";
+            this.tbMK.Size = new System.Drawing.Size(300, 26);
+            this.tbMK.TabIndex = 759;
             // 
             // bt_dn
             // 
@@ -126,31 +126,32 @@
             this.bt_dn.TabIndex = 762;
             this.bt_dn.Text = "Đăng Nhập";
             this.bt_dn.UseVisualStyleBackColor = false;
+            this.bt_dn.Click += new System.EventHandler(this.bt_dn_Click);
             // 
-            // button1
+            // bnThoat
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkCyan;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(377, 208);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(173, 43);
-            this.button1.TabIndex = 763;
-            this.button1.Text = "Thoát";
-            this.button1.UseVisualStyleBackColor = false;
+            this.bnThoat.BackColor = System.Drawing.Color.DarkCyan;
+            this.bnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bnThoat.ForeColor = System.Drawing.Color.Black;
+            this.bnThoat.Location = new System.Drawing.Point(377, 208);
+            this.bnThoat.Margin = new System.Windows.Forms.Padding(4);
+            this.bnThoat.Name = "bnThoat";
+            this.bnThoat.Size = new System.Drawing.Size(173, 43);
+            this.bnThoat.TabIndex = 763;
+            this.bnThoat.Text = "Thoát";
+            this.bnThoat.UseVisualStyleBackColor = false;
             // 
             // flogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(571, 298);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(582, 298);
+            this.Controls.Add(this.bnThoat);
             this.Controls.Add(this.bt_dn);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.txt_manv);
+            this.Controls.Add(this.tbTK);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.txt_sdt);
+            this.Controls.Add(this.tbMK);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -170,10 +171,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txt_manv;
+        private System.Windows.Forms.TextBox tbTK;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txt_sdt;
+        private System.Windows.Forms.TextBox tbMK;
         private System.Windows.Forms.Button bt_dn;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bnThoat;
     }
 }

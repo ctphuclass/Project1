@@ -35,12 +35,8 @@
             this.tblp = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.tbmap = new System.Windows.Forms.TextBox();
-            this.tbgc = new System.Windows.Forms.TextBox();
+            this.tbtt = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.tbSC = new System.Windows.Forms.TextBox();
-            this.tbG = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.bt_xoa = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.bt_sua = new System.Windows.Forms.Button();
@@ -88,12 +84,8 @@
             this.panel4.Controls.Add(this.tblp);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.tbmap);
-            this.panel4.Controls.Add(this.tbgc);
+            this.panel4.Controls.Add(this.tbtt);
             this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.tbSC);
-            this.panel4.Controls.Add(this.tbG);
-            this.panel4.Controls.Add(this.label3);
             this.panel4.Controls.Add(this.bt_xoa);
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.bt_sua);
@@ -107,7 +99,7 @@
             // 
             this.tblp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tblp.ForeColor = System.Drawing.Color.DarkCyan;
-            this.tblp.Location = new System.Drawing.Point(436, 7);
+            this.tblp.Location = new System.Drawing.Point(733, 7);
             this.tblp.Margin = new System.Windows.Forms.Padding(4);
             this.tblp.Name = "tblp";
             this.tblp.Size = new System.Drawing.Size(165, 26);
@@ -118,7 +110,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label4.Location = new System.Drawing.Point(609, 7);
+            this.label4.Location = new System.Drawing.Point(314, 7);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(70, 20);
@@ -135,86 +127,41 @@
             this.tbmap.Size = new System.Drawing.Size(179, 26);
             this.tbmap.TabIndex = 739;
             // 
-            // tbgc
+            // tbtt
             // 
-            this.tbgc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbgc.ForeColor = System.Drawing.Color.DarkCyan;
-            this.tbgc.Location = new System.Drawing.Point(704, 7);
-            this.tbgc.Margin = new System.Windows.Forms.Padding(4);
-            this.tbgc.Name = "tbgc";
-            this.tbgc.Size = new System.Drawing.Size(165, 26);
-            this.tbgc.TabIndex = 751;
+            this.tbtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbtt.ForeColor = System.Drawing.Color.DarkCyan;
+            this.tbtt.Location = new System.Drawing.Point(409, 7);
+            this.tbtt.Margin = new System.Windows.Forms.Padding(4);
+            this.tbtt.Name = "tbtt";
+            this.tbtt.Size = new System.Drawing.Size(165, 26);
+            this.tbtt.TabIndex = 751;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label6.Location = new System.Drawing.Point(306, 8);
+            this.label6.Location = new System.Drawing.Point(603, 8);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(93, 20);
             this.label6.TabIndex = 741;
             this.label6.Text = "Loại Phòng";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label5.Location = new System.Drawing.Point(310, 49);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 20);
-            this.label5.TabIndex = 750;
-            this.label5.Text = "Giá";
-            // 
-            // tbSC
-            // 
-            this.tbSC.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSC.ForeColor = System.Drawing.Color.DarkCyan;
-            this.tbSC.Location = new System.Drawing.Point(114, 48);
-            this.tbSC.Margin = new System.Windows.Forms.Padding(4);
-            this.tbSC.Name = "tbSC";
-            this.tbSC.Size = new System.Drawing.Size(179, 26);
-            this.tbSC.TabIndex = 744;
-            this.tbSC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbSC_KeyPress);
-            // 
-            // tbG
-            // 
-            this.tbG.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbG.ForeColor = System.Drawing.Color.DarkCyan;
-            this.tbG.Location = new System.Drawing.Point(436, 46);
-            this.tbG.Margin = new System.Windows.Forms.Padding(4);
-            this.tbG.Name = "tbG";
-            this.tbG.Size = new System.Drawing.Size(165, 26);
-            this.tbG.TabIndex = 749;
-            this.tbG.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbG_KeyPress);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label3.Location = new System.Drawing.Point(11, 54);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 20);
-            this.label3.TabIndex = 745;
-            this.label3.Text = "Sức Chứa";
-            // 
             // bt_xoa
             // 
             this.bt_xoa.BackColor = System.Drawing.Color.DarkCyan;
             this.bt_xoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_xoa.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.bt_xoa.Location = new System.Drawing.Point(513, 91);
+            this.bt_xoa.Location = new System.Drawing.Point(467, 53);
             this.bt_xoa.Margin = new System.Windows.Forms.Padding(4);
             this.bt_xoa.Name = "bt_xoa";
             this.bt_xoa.Size = new System.Drawing.Size(107, 37);
             this.bt_xoa.TabIndex = 748;
             this.bt_xoa.Text = "Xóa";
             this.bt_xoa.UseVisualStyleBackColor = false;
+            this.bt_xoa.Click += new System.EventHandler(this.bt_xoa_Click);
             // 
             // label2
             // 
@@ -233,13 +180,14 @@
             this.bt_sua.BackColor = System.Drawing.Color.DarkCyan;
             this.bt_sua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_sua.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.bt_sua.Location = new System.Drawing.Point(351, 91);
+            this.bt_sua.Location = new System.Drawing.Point(305, 53);
             this.bt_sua.Margin = new System.Windows.Forms.Padding(4);
             this.bt_sua.Name = "bt_sua";
             this.bt_sua.Size = new System.Drawing.Size(107, 37);
             this.bt_sua.TabIndex = 747;
             this.bt_sua.Text = "Cập Nhật";
             this.bt_sua.UseVisualStyleBackColor = false;
+            this.bt_sua.Click += new System.EventHandler(this.bt_sua_Click);
             // 
             // panel3
             // 
@@ -260,6 +208,7 @@
             this.dgvP.RowTemplate.Height = 24;
             this.dgvP.Size = new System.Drawing.Size(902, 171);
             this.dgvP.TabIndex = 0;
+            this.dgvP.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvP_CellClick);
             // 
             // fphong
             // 
@@ -290,17 +239,13 @@
         private System.Windows.Forms.Button bt_xoa;
         private System.Windows.Forms.Button bt_sua;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tbSC;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox tblp;
         private System.Windows.Forms.TextBox tbmap;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DataGridView dgvP;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox tbgc;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox tbG;
+        private System.Windows.Forms.TextBox tbtt;
         private System.Windows.Forms.Panel panel4;
     }
 }

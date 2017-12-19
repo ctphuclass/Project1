@@ -19,10 +19,6 @@ namespace DoAnQuanLyKhachSan
             InitializeComponent();
         }
 
-        private void dataGridView1_CurrentCellChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void bt_them_Click(object sender, EventArgs e)
         {
@@ -90,16 +86,31 @@ namespace DoAnQuanLyKhachSan
                 return;
             }
             KhachHangDTO kh = new KhachHangDTO();
+            kh.makh = txt_manv.Text;
+            kh.tenkh = txt_ten.Text;
+            kh.quoctinh = txt_qt.Text;
+            kh.sdt = txt_sdt.Text;
+            kh.CMND = txt_cm.Text;
+            kh.diachi = txt_diachi.Text;
+            if (rd_nam.Checked == true)
+            {
+                kh.gioitinh = "Nam";
+            }
+            else
+            {
+                kh.gioitinh = "Nữ";
+            }
+
             ResultMessage_DTO result;
             result = KhachHangBUS.SuaKH(kh);
             if (result.ResultCode_KH == kh.makh)
             {
-                MessageBox.Show(result.ResultMessage_DV, "Sua That Bai");
+                MessageBox.Show(result.ResultMessage_KH);
 
             }
             else
             {
-                MessageBox.Show(result.ResultMessage_DV, "Sua Thanh Cong");
+                MessageBox.Show(result.ResultMessage_KH);
 
             }
             LoadKH();
@@ -131,6 +142,18 @@ namespace DoAnQuanLyKhachSan
         private void fKhachHang_Load(object sender, EventArgs e)
         {
             LoadKH();
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow dgrv = dataGridView1.CurrentRow;
+            txt_ten.Text = dgrv.Cells["TenKhachHang"].Value.ToString();
+            txt_diachi.Text = dgrv.Cells["DiaChi"].Value.ToString();
+            txt_manv.Text = dgrv.Cells["MaKhachHang"].Value.ToString();
+            txt_qt.Text = dgrv.Cells["QuocTich"].Value.ToString();
+            txt_sdt.Text = dgrv.Cells["DienThoai"].Value.ToString();
+            txt_cm.Text = dgrv.Cells["SoCMND"].Value.ToString();
+            
         }
     }
 }

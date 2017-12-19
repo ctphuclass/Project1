@@ -33,6 +33,7 @@ namespace DoAnQuanLyKhachSan
             ft.tbSC.Text = this.dataGridView1.CurrentRow.Cells[6].Value.ToString();
             ft.tbG.Text = this.dataGridView1.CurrentRow.Cells[3].Value.ToString();
             ft.ShowDialog();
+            LoadPhongTrong();
         }
 
         private void dataGridView1_MouseDown(object sender, MouseEventArgs e)
@@ -40,9 +41,15 @@ namespace DoAnQuanLyKhachSan
             if(e.Button ==MouseButtons.Right)
             {
                 Point ClickPoint = new Point(e.X, e.Y);
-                flogin lg = new flogin();
-                lg.ShowDialog();
+                DatPhong dp = new DatPhong();
+                dp.tbMP.Text = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                dp.tblp.Text = this.dataGridView1.CurrentRow.Cells[4].Value.ToString();
+                dp.tbSC.Text = this.dataGridView1.CurrentRow.Cells[6].Value.ToString();
+                dp.tbG.Text = this.dataGridView1.CurrentRow.Cells[3].Value.ToString();
+                dp.ShowDialog();
+                LoadPhongTrong();
             }
+
         }
     }
 }

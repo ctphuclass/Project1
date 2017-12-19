@@ -47,7 +47,7 @@ namespace DoAnQuanLyKhachSan
 
                         bn.BackColor = Color.Red;
                         bn.BackgroundImageLayout = ImageLayout.Center;
-                        
+                        bn.Enabled = false;
                         bn.ImageAlign = ContentAlignment.MiddleCenter;
                         break;
                     case "Hỏng":

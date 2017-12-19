@@ -73,10 +73,10 @@ namespace DAO
                 SqlCommand cmd = new SqlCommand("usp_SuaP", con);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@map", p.maphong);
-                cmd.Parameters.AddWithValue("@gia", p.gia);
-                cmd.Parameters.AddWithValue("@s", p.succhua);
-                cmd.Parameters.AddWithValue("@l", p.loaiphong);
-                cmd.Parameters.AddWithValue("@g", p.ghichu);
+                cmd.Parameters.AddWithValue("@tinhtrang", p.tinhtrang);
+                //cmd.Parameters.AddWithValue("@s", p.succhua);
+                cmd.Parameters.AddWithValue("@l", p.maloaiphong);
+                //cmd.Parameters.AddWithValue("@g", p.ghichu);
                 cmd.Parameters.AddWithValue("@pResultCode_P", result.ResultCode_DV);
                 cmd.Parameters.AddWithValue("@pResultMessage_P", result.ResultMessage_DV);
                 cmd.Parameters["@pResultCode_P"].Direction = ParameterDirection.Output;
@@ -172,5 +172,26 @@ namespace DAO
             string query = string.Format("usp_thuephongmoi @map ={0}", maphong);
             var u = DataProvider.ExecuteNonQuery(query);
         }
+        public static void DatPhong(string maphong)
+        {
+            string query = string.Format("usp_DatPhong @maphong ={0}", maphong);
+            var u = DataProvider.ExecuteNonQuery(query);
+        }
+        public static void NhanPhong1(string maphong)
+        {
+            string query = string.Format("usp_NhanPhong @maphong ={0}", maphong);
+            var u = DataProvider.ExecuteNonQuery(query);
+        }
+        public static void NhanPhong2(string maphong)
+        {
+            string query = string.Format("usp_KiemTraRoiNhanPhong @maphong ={0}", maphong);
+            var u = DataProvider.ExecuteNonQuery(query);
+        }
+        public static void HuyPhong(string maphong)
+        {
+            string query = string.Format("usp_HuyDatPhong @maphong ={0}", maphong);
+            var u = DataProvider.ExecuteNonQuery(query);
+        }
+
     }
 }

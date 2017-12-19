@@ -43,6 +43,7 @@
     <Compile Include="ChiPhiDTO.cs" />
     <Compile Include="ChiTietPTP_DTO.cs" />
     <Compile Include="DoanhThuDTO.cs" />
+    <Compile Include="KiemTraDatPhongDTO.cs" />
     <Compile Include="PhieuChiTietDTO.cs" />
     <Compile Include="DatPhongDTO.cs" />
     <Compile Include="DichVuDTO.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="ResultMessage_DTO.cs" />
     <Compile Include="ThemDichVuDTO.cs" />
     <Compile Include="TongTienDTO.cs" />
+    <Compile Include="UserDTO.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -41,9 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChiPhiDAO.cs" />
+    <Compile Include="ChiTietPDP_DAO.cs" />
     <Compile Include="ChiTietPTP_DAO.cs" />
     <Compile Include="DatPhongDAO.cs" />
     <Compile Include="DoanhThuDAO.cs" />
+    <Compile Include="KiemTraDatPhongDAO.cs" />
     <Compile Include="PhieuChiTietDAO.cs" />
     <Compile Include="DataProvider.cs" />
     <Compile Include="DichVuDAO.cs" />
@@ -52,6 +54,7 @@
     <Compile Include="PhieuThuePhongDAO.cs" />
     <Compile Include="PhongDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserDAO.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO\DTO.csproj">

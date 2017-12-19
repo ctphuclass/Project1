@@ -1,0 +1,30 @@
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\bin\Debug\DoAnQuanLyKhachSan.exe
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\bin\Debug\DTO.dll
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\bin\Debug\BUS.dll
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\bin\Debug\DAO.dll
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\bin\Debug\BUS.pdb
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\bin\Debug\DTO.pdb
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\bin\Debug\DAO.pdb
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.ChucNangDichVu.resources
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.fPhieuThue.resources
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.fdichvu.resources
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.fdoanhthu.resources
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.fTimPhong.resources
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.fKhachHang.resources
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.flogin.resources
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.fphong.resources
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.ftimkiemKH.resources
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.Properties.Resources.resources
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.exe
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.pdb
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\bin\Debug\DoAnQuanLyKhachSan.exe.config
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\bin\Debug\DoAnQuanLyKhachSan.pdb
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.DatPhong.resources
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.KiemTraDatPhong.resources
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.SuLyPhieuDatPhong.resources
+C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.fMain.resources
+C:\Users\vobuf\Source\Repos\Project13\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\bin\Debug\DoAnQuanLyKhachSan.exe.config
+C:\Users\vobuf\Source\Repos\Project13\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.exe
+C:\Users\vobuf\Source\Repos\Project13\DoAnQuanLyKhachSan\DoAnQuanLyKhachSan\obj\Debug\DoAnQuanLyKhachSan.pdb
