@@ -59,7 +59,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(857, 43);
+            this.panel1.Size = new System.Drawing.Size(965, 43);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -84,7 +84,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 43);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(857, 119);
+            this.panel2.Size = new System.Drawing.Size(965, 119);
             this.panel2.TabIndex = 3;
             // 
             // button1
@@ -92,7 +92,7 @@
             this.button1.BackColor = System.Drawing.Color.DarkCyan;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(554, 31);
+            this.button1.Location = new System.Drawing.Point(690, 46);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(132, 37);
@@ -106,7 +106,7 @@
             this.bt_timkiem.BackColor = System.Drawing.Color.DarkCyan;
             this.bt_timkiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_timkiem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.bt_timkiem.Location = new System.Drawing.Point(408, 31);
+            this.bt_timkiem.Location = new System.Drawing.Point(538, 46);
             this.bt_timkiem.Margin = new System.Windows.Forms.Padding(4);
             this.bt_timkiem.Name = "bt_timkiem";
             this.bt_timkiem.Size = new System.Drawing.Size(132, 37);
@@ -120,21 +120,22 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label7.Location = new System.Drawing.Point(166, 39);
+            this.label7.Location = new System.Drawing.Point(161, 57);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(48, 20);
+            this.label7.Size = new System.Drawing.Size(126, 20);
             this.label7.TabIndex = 725;
-            this.label7.Text = "Nhập";
+            this.label7.Text = "Nhập mã phòng";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // tbkeyword
             // 
             this.tbkeyword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbkeyword.ForeColor = System.Drawing.Color.DarkCyan;
-            this.tbkeyword.Location = new System.Drawing.Point(219, 36);
+            this.tbkeyword.Location = new System.Drawing.Point(316, 54);
             this.tbkeyword.Margin = new System.Windows.Forms.Padding(4);
             this.tbkeyword.Name = "tbkeyword";
-            this.tbkeyword.Size = new System.Drawing.Size(183, 26);
+            this.tbkeyword.Size = new System.Drawing.Size(159, 26);
             this.tbkeyword.TabIndex = 724;
             // 
             // pictureBox2
@@ -151,7 +152,7 @@
             // 
             this.pictureBox1.BackgroundImage = global::DoAnQuanLyKhachSan.Properties.Resources.Money_icon;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Location = new System.Drawing.Point(747, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(840, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(120, 107);
             this.pictureBox1.TabIndex = 0;
@@ -163,19 +164,20 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 162);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(857, 395);
+            this.panel3.Size = new System.Drawing.Size(965, 395);
             this.panel3.TabIndex = 4;
             // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(857, 395);
+            this.dataGridView1.Size = new System.Drawing.Size(965, 395);
             this.dataGridView1.TabIndex = 0;
             // 
             // panel4
@@ -186,7 +188,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 557);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(857, 50);
+            this.panel4.Size = new System.Drawing.Size(965, 49);
             this.panel4.TabIndex = 5;
             // 
             // cbTT
@@ -199,6 +201,7 @@
             this.cbTT.Name = "cbTT";
             this.cbTT.Size = new System.Drawing.Size(171, 30);
             this.cbTT.TabIndex = 3;
+            this.cbTT.SelectedIndexChanged += new System.EventHandler(this.cbTT_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -222,7 +225,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(857, 629);
+            this.ClientSize = new System.Drawing.Size(965, 629);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);

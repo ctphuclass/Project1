@@ -7,3 +7,12 @@ C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan
 C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\BUS\obj\Debug\BUS.dll
 C:\Users\vobuf\OneDrive\Documents\Visual Studio 2015\Projects\DoAnQuanLyKhachSan\BUS\obj\Debug\BUS.pdb
+C:\Users\HoangBao\Desktop\DoAnQuanLyKhachSan\BUS\bin\Debug\BUS.dll
+C:\Users\HoangBao\Desktop\DoAnQuanLyKhachSan\BUS\bin\Debug\BUS.pdb
+C:\Users\HoangBao\Desktop\DoAnQuanLyKhachSan\BUS\bin\Debug\DAO.dll
+C:\Users\HoangBao\Desktop\DoAnQuanLyKhachSan\BUS\bin\Debug\DTO.dll
+C:\Users\HoangBao\Desktop\DoAnQuanLyKhachSan\BUS\bin\Debug\DAO.pdb
+C:\Users\HoangBao\Desktop\DoAnQuanLyKhachSan\BUS\bin\Debug\DTO.pdb
+C:\Users\HoangBao\Desktop\DoAnQuanLyKhachSan\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\HoangBao\Desktop\DoAnQuanLyKhachSan\BUS\obj\Debug\BUS.dll
+C:\Users\HoangBao\Desktop\DoAnQuanLyKhachSan\BUS\obj\Debug\BUS.pdb

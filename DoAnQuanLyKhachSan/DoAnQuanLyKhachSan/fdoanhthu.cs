@@ -82,14 +82,21 @@ namespace DoAnQuanLyKhachSan
             {
 
             }
-
-
-           
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             LoadDT();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbTT_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -41,15 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChiPhiBUS.cs" />
-    <Compile Include="ChiTietPDP_BUS.cs" />
     <Compile Include="ChiTietPTP_BUS.cs" />
-    <Compile Include="DatPhongBUS.cs" />
     <Compile Include="DoanhthuBUS.cs" />
-    <Compile Include="KiemTraDatPhongBUS.cs" />
+    <Compile Include="NhanVien_BUS.cs" />
     <Compile Include="PhieuChiTietBUS.cs" />
     <Compile Include="DichVuBUS.cs" />
-    <Compile Include="KhachHangBUS.cs" />
-    <Compile Include="PhieuThuePhongBUS.cs" />
     <Compile Include="PhongBUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserBUS.cs" />

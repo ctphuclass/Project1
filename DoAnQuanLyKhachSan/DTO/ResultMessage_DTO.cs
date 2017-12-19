@@ -8,8 +8,6 @@ namespace DTO
 {
     public class ResultMessage_DTO
     {
-        public int ResultCode { get; set; }
-        public string ResultMessage { get; set; }
         public string ResultCode_NV { get; set; }
         public string ResultMessage_NV { get; set; }
         public string ResultCode_DV { get; set; }
@@ -21,8 +19,6 @@ namespace DTO
 
         public ResultMessage_DTO()
         {
-            ResultCode = -1;
-            ResultMessage = "defaul error";
             ResultCode_NV = "-1";
             ResultMessage_NV = "defaul failed ";
             ResultCode_DV = "-1";

@@ -39,21 +39,5 @@ namespace BUS
         {
             return PhongDAO.LoadListPhong();
         }
-        public static void DatPhong(string maphong)
-        {
-            PhongDAO.DatPhong(maphong);
-        }
-        public static void NhanPhong1(string maphong)
-        {
-            PhongDAO.NhanPhong1(maphong);
-        }
-        public static void NhanPhong2(string maphong)
-        {
-            PhongDAO.NhanPhong2(maphong);
-        }
-        public static void HuyPhong(string maphong)
-        {
-            PhongDAO.HuyPhong(maphong);
-        }
     }
 }

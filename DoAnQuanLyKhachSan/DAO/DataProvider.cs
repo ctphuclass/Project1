@@ -10,7 +10,7 @@ namespace DAO
 {
     public class DataProvider
     {
-        public static string connect = @"Data Source=DESKTOP-0ATNVN4\SQLEXPRESS;Initial Catalog=QuanLyKhachSan010;Integrated Security=True";
+        public static string connect = @"Data Source=HOANGBAO\SQLEXPRESS;Initial Catalog=QuanLyKhachSan010;Integrated Security=True";
 
 
         public static DataTable ExecuteQuery(string query)
